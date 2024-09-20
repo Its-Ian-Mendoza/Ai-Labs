@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phaser Game</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #game-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 600px; /* Match the height of the Phaser game */
+        width: 800px; /* Match the width of the Phaser game */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="game-container"></div>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.js"></script>
+    <script src="Data/StoneSpawner.js"></script>
+    <script src="Data/collision.js"></script>
+    <script type="module" src="Adventuretyme.js"></script>
+  </body>
+</html>
